@@ -1,25 +1,43 @@
-body {
-    max-width: 1440px;
-    min-height: 100vh;
-    font-family: 'Poppins', sans-serif;
-    background-image: url(../img/bg-intro-desktop.png);
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-}
+  :root {
+    --clr-red: #ff7a7a;
+    --clr-green: #38cc8c;
+    --clr-blue: #6055a5;
+    --clr-dark-blue: #3e3c49;
+    --clr-gray-blue: #b9b6d3;
+    --fs-default: 16px;
+    --fs-medium: 28px;
+    --fs-large: 32px;
+    --fs-xlarge: 48px;
+  }
 
-.descricao {
-    grid-area: descricao;
+
+.principal {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;    
+    background-color: var(--clr-red);
+    height: 800px;
+    padding: 4rem;
     display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    align-items: center;
+    background-image: url("../img/bg-intro-desktop.png");
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
-.descricao h1 {
-    font-size: 32px;
-    font-weight: 700;
-}
 
-.descricao p {
-    font-size: 16px;
-    font-weight: 300;    
-}
+
+
+
+
 
 .botao__azul button {
     width: 30%;
