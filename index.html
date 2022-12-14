@@ -13,56 +13,70 @@
 
     <body>
 
-        <div class="descricao">
+        <div class="principal">
 
-            <h1>Aprenda a codificar observando outras pessoas</h1>
-            <p>Veja como desenvolvedores experientes resolvem problemas em tempo real.<br>Assistir a tutoriais com script é ótimo, mas entender como os desenvolvedores pensam é inestimável.</p>
-            
-        </div>
+            <section class="descricao">
 
-        <div class="botao__azul">
-
-            <button>Experimente grátis por 7 dias e depois US$ 20/mês.</button>
-
-        </div>
-
-        <div class="container">
-            
-            <form id="form" class="form">
-
-                <div class="form__control">
-
-                    <input type="text" id="nome" placeholder="Primeiro nome">
-
-                </div>
-
+                <h1>Aprenda a codificar observando outras pessoas</h1>
+                <p>Veja como desenvolvedores experientes resolvem problemas em tempo real.<br>Assistir a tutoriais com script é ótimo, mas entender como os desenvolvedores pensam é inestimável.</p>
                 
-                <div class="form__control">
+            </section>
+
+            <section>
+
+                <div class="botao__azul">
+
+                    <button>Experimente grátis por 7 dias e depois US$ 20/mês.</button>
+
+                </div>
+
+                <div class="container">
                     
-                    <input type="text" id="sobrenome" placeholder="Sobrenome">
+                    <form id="form" class="form">
+
+                        <div class="form__control">
+
+                            <input type="text" id="nome" class="first__name" placeholder="Primeiro nome">
+                            <span><img src="./assets/img/icon-error.svg" alt="error" class="error__icon"></span>
+                            <span class="error">O campo não pode estar vazio</span>
+
+                        </div>
+
+                        
+                        <div class="form__control">
+                            
+                            <input type="text" id="sobrenome" class="last__name" placeholder="Sobrenome">
+                            <span><img src="./assets/img/icon-error.svg" alt="error" class="error__icon"></span>
+                            <span class="error">O campo não pode estar vazio</span>
+
+                        </div>
+
+                        <div class="form__control">
+                            
+                            <input type="text" id="email" class="email" placeholder="Email">
+                            <span><img src="./assets/img/icon-error.svg" alt="error" class="error__icon"></span>
+                            <span class="error">O campo não pode estar vazio</span>
+
+                        </div>
+
+                        <div class="form__control">
+                            
+                            <input type="password" id="password" class="password" placeholder="Senha">
+                            <span><img src="./assets/img/icon-error.svg" alt="error" class="error-icon"></span>
+                            <span class="error">O campo não pode estar vazio</span>
+
+                        </div>
+
+                        <div>
+
+                            <button type="submit">Iniciar teste gratuito</button>
+                            <p>Ao clicar no botão, você concorda com nossos Termos e Serviços</p>
+
+                        </div>
+
+                    </form>
 
                 </div>
-
-                <div class="form__control">
-                    
-                    <input type="text" id="email" placeholder="Email">
-
-                </div>
-
-                <div class="form__control">
-                    
-                    <input type="password" id="password" placeholder="Senha">
-
-                </div>
-
-                <div>
-
-                    <button type="submit">Iniciar teste gratuito</button>
-                    <p>Ao clicar no botão, você concorda com nossos Termos e Serviços</p>
-
-                </div>
-
-            </form>
 
         </div>
            

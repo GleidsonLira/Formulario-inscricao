@@ -6,6 +6,11 @@ body {
 
 }
 
+.descricao {
+    grid-area: descricao;
+    display: flex;
+}
+
 .descricao h1 {
     font-size: 32px;
     font-weight: 700;
@@ -13,7 +18,7 @@ body {
 
 .descricao p {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 300;    
 }
 
 .botao__azul button {
@@ -67,6 +72,8 @@ body {
     padding: 10px;
     cursor: pointer;
 }
+
+
 
 
 
