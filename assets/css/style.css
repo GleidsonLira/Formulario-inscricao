@@ -110,6 +110,17 @@
   margin-bottom: 20px;
 } 
 
+.right .container #form div .error__icon {
+  position: absolute;
+  right: 8%;
+  top: 28%;
+  display: none;
+}
+
+.right .container #form div .error-icon.visible {
+  display: inline-block;
+}
+
 
 /* Responsividade*/
 
