@@ -70,19 +70,36 @@
   font-size: var(--fs-default);
   font-weight: 300;
   text-align: center;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 1);
   margin-bottom: 30px;
   display: block;
 }
 
+.right .botao__azul span {
+  font-weight: 700;
+  display: inline-block;
+}
 
-
-
-.container {
+.right .container #form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 1);
 }
+
+
+ 
+  
+ 
+  
+
 
 /* Responsividade*/
 
