@@ -94,11 +94,21 @@
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 1);
 }
 
-
+.right .container #form div {
+  flex: 1;
+  display: block;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  position: relative;
+}
  
-  
+.right .container #form div:first-of-type {
+  margin-top: 20px;
+} 
  
-  
+.right .container #form div:last-of-type {
+  margin-bottom: 20px;
+} 
 
 
 /* Responsividade*/
