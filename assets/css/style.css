@@ -121,6 +121,31 @@
   display: inline-block;
 }
 
+.right .container #form div input {
+  display: block;
+  width: 100%;
+  padding: 1.2rem 1.8rem;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+  font-weight: bolder;
+  color: var(--clr-dark-blue);
+}
+
+.right .container #form div input:focus {
+  border: 1px solid var(--clr-dark-blue);
+  color: var(--clr-dark-blue);
+}
+
+.right .container #form div input.invalid {
+  border-color: var(--clr-red) !important;
+  border-width: 2px !important;
+}
+
+.right .container #form div span.error {
+  display: none;
+}
+
 
 /* Responsividade*/
 
