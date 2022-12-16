@@ -160,13 +160,32 @@
   padding: 1rem 1.2rem;
   margin-bottom: 1rem;
   outline: none;
-  border: none;
-  border-radius: 5px;
+  border: none;  
   cursor: pointer;
+}
+
+.right .container #form .botao__verde {
+  background-color: var(--clr-green);
+  color: #fff;
+  font-size: var(--fs-default);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 5px;
+  border-bottom: 3px outset var(--clr-green);
+  border-right: 1px solid var(--clr-green);
+  border-left: 1px solid var(--clr-green);
+  border-top: 1px solid var(--clr-green);
 }
 
 .botao:hover {
   transform: scale(1.1);
+}
+
+.right .container #form p {
+  font-size: 12px;
+  color: var(--clr-gray-blue);
+  padding-bottom: 2.5rem;
 }
 
 
