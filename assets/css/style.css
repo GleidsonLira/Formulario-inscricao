@@ -146,6 +146,14 @@
   display: none;
 }
 
+.right .container #form div span.error.visible{
+  display: block;
+  text-align: right;
+  color: var(--clr-red);
+  font-style: italic;
+  font-size: 0.8em;
+}
+
 
 /* Responsividade*/
 
