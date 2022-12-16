@@ -188,6 +188,15 @@
   padding-bottom: 2.5rem;
 }
 
+.right .container #form p span {
+  color: var(--clr-red);
+  font-weight: 500;
+}
+
+.visible {
+  display: block;
+}
+
 
 /* Responsividade*/
 
@@ -200,7 +209,7 @@
   }
 
   @media screen and (max-width: 1023px) {
-    .wrapper {
+    .principal {
       flex-direction: column;
       height: auto;
       width: 80%;
@@ -230,22 +239,22 @@
       align-items: center;
       width: 100%;
     }
-    .right .heading {
+    .right .botao__azul {
       max-width: 100% !important;
       text-align: center;
       padding-left: 2rem !important;
       padding-right: 2rem !important;
     }
-    .right .form-group #form {
+    .right .container #form {
       max-width: 100%;
       padding-left: 0 !important;
       padding-right: 0 !important;
     }
-    .right .form-group #form .btn {
+    .right .container #form .botao {
       width: 90% !important;
       font-size: 12px !important;
     }
-    .right .form-group #form p {
+    .right .container #form p {
       padding-left: 1rem;
       padding-right: 1rem;
       text-align: center;
