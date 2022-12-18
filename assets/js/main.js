@@ -10,6 +10,11 @@ function validadeInputs() {
                 this.classList.add('invalid');
                 erro[i].classList.add('visable');
                 erroIcon[i].classList.add('visable');
+              }
+            else {
+                this.classList.remove('invalid');
+                erro[i].classList.remove('visable');
+                erroIcon.classList.remove('visable');
             }
         })
     }
