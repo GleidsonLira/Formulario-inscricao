@@ -20,3 +20,25 @@ function submit(event) {
     }
 }
 
+function checkEmpty(inputs) {
+    let foundError = false
+    inputs.forEach(input => {
+        if (input.value === "" || input.value === null) {
+            showErrorMessage(input, true)
+            foundError = true
+        }
+        else { showErrorMessage(input, false) }
+    })
+    return foundError
+}
+
+function showErrorMessage(input, show) {
+    if (show) {
+        input.parentElement.classList.add('error')
+    }
+    else { input.parentElement.classList.remove('error') }
+}
+
+function isEmail(email) {
+    return (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
+}
